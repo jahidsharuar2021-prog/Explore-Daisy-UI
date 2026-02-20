@@ -1,9 +1,10 @@
 <!doctype html>
-<html>
+<html data-theme="light"></html>
   <head>
     <meta charset="UTF-8" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
     <title>Explore khala moni</title>
     <style type="text/tailwindcss">
       @theme {
@@ -15,9 +16,20 @@
     <h1 class="text-3xl text-center font-bold py-10 underline text-clifford">
       Hello world!
     </h1>
-    <div class="text-center">
+    <div class="text-center bg-success/10">
         <!-- <button class="px-8 py-3 bg-amber-400 cursor-pointer hover:bg-amber-500 active:scale-95 transition-all duration-200">click me </button> -->
-         <button class="btn">click me</button>
+         <button class="btn btn-primary w-80 rounded-full">click me</button>
+         <button class="btn btn-secondary ">click me</button>
+         <button class="btn btn-error ">click me</button>
+         <button class="btn btn-accent ">click me</button>
+         <button class="btn btn-neutral ">click me</button>
     </div>
+    <details class="dropdown">
+  <summary class="btn m-1">open or close</summary>
+  <ul class="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li><a>jkhono kichu</a></li>
+    <li><a>Item 2</a></li>
+  </ul>
+</details>
   </body>
 </html>
